@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.contenitoreGrande {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1  {
+    text-align: center;
+    color : rgb(211, 48, 162);
+    font-weight: bold;
+    font-size: 50px;
+    padding: 15px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.paragrafoIniziale {
+    text-align: center;
+    margin: 25px;
+}
