@@ -45,9 +45,11 @@ a {
 
 .card {
     float: left;
-    width: calc(100%/3);
+    width: calc(90%/3);
     background-color: rgb(3, 3, 49);
-    color: white;  
+    color: white; 
+    margin-left: 25px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .informazioniUtente {
