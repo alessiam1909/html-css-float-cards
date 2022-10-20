@@ -9,7 +9,7 @@ body {
 }
 
 .contenitoreGrande {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -25,4 +25,20 @@ h1  {
 .paragrafoIniziale {
     text-align: center;
     margin: 25px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card img{
+    float: left;
+    width: 100px;
+}
+
+.card {
+    float: left;
+    width: calc(100%/3);
 }
